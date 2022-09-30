@@ -1,9 +1,5 @@
 <template>
-  <div class="footerWrapperDesk d-flex m-5">
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
+  <div class="footerWrapper">
     <h1 >Footer</h1>
   </div>
 </template>
@@ -17,5 +13,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .footerWrapper{
+    background: #3f4267;
+    height: 10vh;
+    width: 100%;
+  }
   
 </style>
