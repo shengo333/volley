@@ -1,20 +1,23 @@
 <template>
   <div class="indexPageWrapper">
-    <h1>index page</h1>
+    <slider />
   </div>
 </template>
 
 <script>
+
+import slider from '@/components/Theimgslider.vue'
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components:{
+    slider
+  }
 }
 </script>
 
 <style lang="scss">
   
-  .indexPageWrapper{
-    height: 80vh;
-  }
   
 
 </style>

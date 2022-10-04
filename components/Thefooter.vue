@@ -1,6 +1,7 @@
 <template>
   <div class="footerWrapper">
     <h1 >Footer</h1>
+    <p>Created By David & Beka</p>
   </div>
 </template>
 
