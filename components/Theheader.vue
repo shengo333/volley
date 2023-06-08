@@ -2,6 +2,9 @@
   <div class="headerWrapper">
     <div class="leftHeader">
       <div class="icon">icon</div>
+
+
+
     </div>
     <div class="navbar">
       <!-- <ul>
@@ -29,16 +32,31 @@
         <nuxt-link :to="{name: 'contact'}">
           <li>კონტაქტი</li>
         </nuxt-link>
+        <nuxt-link :to="{name: 'login'}">
+          <li>ავტორიზაცია</li>
+        </nuxt-link>
       </ul>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+
+  
+
+
+
+
+};
 </script>
 
 <style lang="scss" scoped>
+
+.log-in{
+  display: flex;
+}
+
 .headerWrapper {
   background: #3f4267;
   height: 10vh;
